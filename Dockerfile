@@ -1,4 +1,4 @@
-FROM lwis/java5-docker
+FROM lwis/java5
 MAINTAINER Lewis
 
 RUN apt-get update && apt-get install unzip ;\
