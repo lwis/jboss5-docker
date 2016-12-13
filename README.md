@@ -22,3 +22,5 @@ Exposing/Reassigning ports:
 ```
 docker run -p 8080:8080 -p 8787:8787 lwis/jboss5 /opt/jboss-5.1.0.GA/bin/run.sh --host=0.0.0.0
 ```
+
+For more information on the JBoss `run.sh` options, you can [refer to the official documentation](https://docs.jboss.org/jbossas/guides/installguide/r1/en/html/start-stop.html).
